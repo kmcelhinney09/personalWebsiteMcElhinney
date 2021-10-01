@@ -1,3 +1,5 @@
+/*The css code was found on W3Schools.com and adjusted*/
+
 /*Set navigation background black*/
 .nav {
   background-color: rgb(2, 73, 8);
@@ -127,7 +129,33 @@ figcaption{
 }
 
 .contact{
-  
   grid-column: 2/2;
   grid-row: 2/2;
 }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid rgb(116, 110, 110); 
+  border-radius: 8px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical; 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(2, 73, 8);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #07db58;
+}
+
