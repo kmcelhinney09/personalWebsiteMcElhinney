@@ -35,16 +35,16 @@ body{
     color: white;
 }
 /* Prevent header from hiding under nav bar */
-.topHalf{
+.top{
     padding-top: 30px;
 }
  /* Break remaining page into Two */
-.topHalf > img{
+.top > img{
     width: auto;
     height: 300px;
 }
 
-.bottomHalf > img{
+.middle> img{
   width: 300px;  
   height: auto;
 }  
