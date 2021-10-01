@@ -83,10 +83,7 @@ figcaption{
   grid-column: 1/4;
   grid-row: 2/2;
 }
-.personalImage{
-  width: 300px;  
-  height: auto;
-}  
+
 .bottom{
   grid-column: 1/4;
 }
