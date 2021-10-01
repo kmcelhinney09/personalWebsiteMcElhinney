@@ -1,7 +1,20 @@
 /* Set page color to black*/
 body{
     background-color: black;
+    color: white;
 }
+.topHalf{
+    padding-top: 30px;
+}
+.topHalf > img{
+    width: 500px;
+    height: auto;
+}
+.bottomHalf > img{  
+    width: 300px;
+    height: auto;
+    }  
+
 /*Set navigation background black*/
 .nav {
     background-color: rgb(2, 73, 8);
