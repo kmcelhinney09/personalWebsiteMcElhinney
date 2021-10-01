@@ -96,6 +96,14 @@ figcaption{
 .aboutMe{
   grid-column: 2/4;
   grid-row: 2/2;
+  font-size: 2.2vmax;
+  background-color: rgb(2, 73, 8);
+}
+.aboutMe > p{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
 .bottom{
