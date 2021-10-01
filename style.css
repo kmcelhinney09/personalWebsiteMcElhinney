@@ -1,4 +1,5 @@
-/*The css code was found on W3Schools.com and adjusted*/
+/*The css code for the nav bar and contact form
+was found on W3Schools.com and adjusted*/
 
 /*Set navigation background black*/
 .nav {
@@ -45,7 +46,6 @@ h1{
   grid-template-columns: repeat(3,1fr);
   grid-auto-rows: auto;
 }
-
 
 .top{
     padding-top: 30px; /* Prevent header from hiding under nav bar */
@@ -123,14 +123,22 @@ figcaption{
 }
 
 .social{
-  
   grid-column: 1/1;
   grid-row: 2/2;
+  text-align: center;
 }
 
+.socialIcons{
+  grid-column: 1/1;
+  grid-row: 3/3;
+}
 .contact{
   grid-column: 2/2;
   grid-row: 2/2;
+}
+
+#contactHeader{
+  text-align: center;
 }
 
 input[type=text], select, textarea {
@@ -139,8 +147,8 @@ input[type=text], select, textarea {
   border: 1px solid rgb(116, 110, 110); 
   border-radius: 8px;
   box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px;
+  margin-top: 2px; 
+  margin-bottom: 10px;
   resize: vertical; 
 }
 
