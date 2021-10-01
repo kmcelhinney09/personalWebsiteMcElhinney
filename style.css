@@ -128,10 +128,6 @@ figcaption{
   text-align: center;
 }
 
-.socialIcons{
-  grid-column: 1/1;
-  grid-row: 3/3;
-}
 .contact{
   grid-column: 2/2;
   grid-row: 2/2;
