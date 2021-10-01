@@ -82,6 +82,20 @@ figcaption{
 .middle{
   grid-column: 1/4;
   grid-row: 2/2;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+#about{
+  grid-column: 1/4;
+  grid-row: 1/1;
+}
+.personalImage{
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.aboutMe{
+  grid-column: 2/4;
+  grid-row: 2/2;
 }
 
 .bottom{
