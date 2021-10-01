@@ -9,6 +9,9 @@ was found on W3Schools.com and adjusted*/
   left:0;
   right:0;
 }
+.nav > h1{
+ padding-right: 18%;
+}
 
 /* Style links in navigation*/
 .nav a {
@@ -48,7 +51,7 @@ h1{
 }
 
 .top{
-    padding-top: 30px; /* Prevent header from hiding under nav bar */
+    padding-top: 80px; /* Prevent header from hiding under nav bar */
     grid-column: 1/4;
     grid-row: 1/1;
     display: grid;
