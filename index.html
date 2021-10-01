@@ -11,41 +11,56 @@
         <a class="active" href="#home">Projects</a>
         <a href="#about">About</a>
     </div>
-    <div class="top">
-        <h1>My Projects</h1>
-        <img src="images/UNR_Biometics_Project.png" alt="Image of face comparison graphical user interface">
-        <figcaption>Celeberty Face Comparison</figcaption>
-        <img src="images/mitosis.png" alt="Image of the stages of mitosis">
-        <figcaption>Mitosis Simulator</figcaption>
-        <img src="images/BugTracker.jpg" alt="Drawing of a bug under a magnifying glass">
-        <figcaption>Bug Tracker</figcaption>
+    <div class="grid-container">
+        <div class="top">
+            <h1 id="projectHeader">My Projects</h1>
+            <div class="project1">
+                <img src="images/UNR_Biometics_Project.png" alt="Image of face comparison graphical user interface">
+                <figcaption>Celeberty Face Comparison</figcaption>
+            </div>
+            <div class="project2">
+                <img src="images/mitosis.png" alt="Image of the stages of mitosis">
+                <figcaption>Mitosis Simulator</figcaption>
+            </div>
+            <div class="project3">
+                <img src="images/BugTracker.jpg" alt="Drawing of a bug under a magnifying glass">
+                <figcaption>Bug Tracker</figcaption>
+            </div>
 
-    </div>
-    <div class="middle">
-        <h1>Kevin McElhinney</h1>
-        <img src="images/RenderedImage.png" alt="Pencil Render of Kevin McElhinney">
-    </div>
-    <div class = "bottom">
-        <h1>How to Contact Me!</h1>
-        <form action="action_page.php">
 
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+        <div class="middle">
+            <h1 id="about">About Me</h1>
+            <img src="images/RenderedImage.png" alt="Pencil Render of Kevin McElhinney">
+        </div>
+        <div class="bottom">
+            <h1>How to Contact Me!</h1>
+            <div class="social">
+                <h3>Online</h3>
+            </div>
+            <div class="contact">
+                <form action="action_page.php">
 
-            <label for="return">Return Email Adress</label>
-            <input type="text" id="return" name="return" placeholder="Your return email address...">
-        
-            
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-        
-          </form>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="return">Return Email Adress</label>
+                    <input type="text" id="return" name="return" placeholder="Your return email address...">
+
+
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
     </div>
 
 
