@@ -1,4 +1,12 @@
-const h2 = document.createElement("h2")
-h2.textContent = "This content added by JavaScript";
+const projectImage1 = document.getElementById("project1")
+const projectImage2 = document.getElementById("project2")
+const projectImage3 = document.getElementById("project3")
 
-document.querySelector("body").appendChild(h2);
+
+projectImage1.addEventListener("mouseout",function(){
+    projectImage1.style.opacity = 1.0;
+})
+projectImage1.addEventListener('mouseover',function(){
+    projectImage1.style.opacity = .5;
+})
+
