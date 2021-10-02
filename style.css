@@ -2,6 +2,11 @@
 was found on W3Schools.com and adjusted*/
 
 /*Set navigation background black*/
+html body{
+    
+  background-color: black;
+  color: white;
+}
 .nav {
 
   background-color: rgb(2, 73, 8);
@@ -37,11 +42,7 @@ was found on W3Schools.com and adjusted*/
 }
 
 /* Set page color to black*/
-body{
-    
-    background-color: black;
-    color: white;
-}
+
 h1{
   text-align: center;
 }
